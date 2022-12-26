@@ -9,8 +9,9 @@ git clone https://github.com/tf-encrypted/moose
 cd moose
 ```
 
-You will need a working [installation of Rust](https://www.rust-lang.org/learn/get-started) to compile and test this project; we generally use the [stable toolchain](https://rust-lang.github.io/rustup/concepts/channels.html).
+You will need a working [installation of Rust > 1.6](https://www.rust-lang.org/learn/get-started) to compile and test this project; we generally use the [stable toolchain](https://rust-lang.github.io/rustup/concepts/channels.html).
 
+If you have an older version of Rust, please update using `rustup update`.
 ### Debian/Ubuntu
 
 Install dependencies:
@@ -18,6 +19,7 @@ Install dependencies:
 ```sh
 sudo apt install libopenblas-dev
 sudo apt install python3-dev
+sudo apt install protobuf-compiler
 ```
 
 ### macOS
